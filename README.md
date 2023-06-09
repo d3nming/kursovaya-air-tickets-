@@ -15,24 +15,22 @@
 + user_id - id пассажира
 + login - логин пользователя
 + password - пароль пользователя
-+ first_name имя пассажира
-+ last_name фамилия пассажира
 + email - эл. почта пользователя
-+ flight_id id перелета
 + City_id город перелета
-# Flights 
++ UserPhone - номер телефона пользователя
+# Flight
 + flight_id - id перелета
 + airline авиакомпания
 + flight_number номер перелета
 + departure_airport_id - id аэропорта, с которого осуществляется отправление
 + arrival_airport_id - id аэропорта в который осуществляется прибытие 
 + departure_time - время отправления(местное)
-+ arrival_time - время прилета(местное в городе прибытия)
++ arrival_time - время прилета(местное)
 # ticket
 + ticket_id - id билета
 + Passenger_id id пассажира
 + flight_id - id перелета 
-+ price - цена билета
++ Ticket_price - цена билета
 + Seat_id id места в салоне
 # Passenger
 + Passenger_id id пассажира
